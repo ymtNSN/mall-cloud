@@ -1,0 +1,53 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+/log/
+.log
+
+.DS_Store
+app.pid
+/hpcds-web/log/
+/hpcds-web/src/main/resources/config/application-dev.properties
+!/output/control.sh
+!/output/
+!/output/control.sh
+document/reference/
+mall-admin/src/
+mall-common/src/
+mall-config/src/
+mall-demo/src/
+mall-gateway/src/
+mall-mbg/src/
+mall-monitor/src/
+mall-portal/src/
+mall-registry/src/
+mall-search/src/
+mall-security/src/
