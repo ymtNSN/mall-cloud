@@ -20,7 +20,7 @@
         <module>mall-gateway</module>
         <module>mall-demo</module>
         <module>mall-config</module>
-        <module>mall-common</module>
+        <module>mall-comm</module>
     </modules>
 
     <parent>
@@ -54,9 +54,10 @@
         <logstash-logback.version>5.3</logstash-logback.version>
         <admin-starter-server.version>2.1.5</admin-starter-server.version>
         <minio.version>3.0.10</minio.version>
-        <mall-common.version>1.0-SNAPSHOT</mall-common.version>
+        <mall-comm.version>1.0-SNAPSHOT</mall-comm.version>
         <mall-mbg.version>1.0-SNAPSHOT</mall-mbg.version>
         <mall-security.version>1.0-SNAPSHOT</mall-security.version>
+        <lombok.version>1.18.8</lombok.version>
     </properties>
 
     <dependencies>
@@ -88,8 +89,8 @@
             <!--mall通用模块-->
             <dependency>
                 <groupId>com.ymt.mall</groupId>
-                <artifactId>mall-common</artifactId>
-                <version>${mall-common.version}</version>
+                <artifactId>mall-comm</artifactId>
+                <version>${mall-comm.version}</version>
             </dependency>
             <!--mall中MBG生成模块-->
             <dependency>
@@ -191,6 +192,12 @@
                 <groupId>io.minio</groupId>
                 <artifactId>minio</artifactId>
                 <version>${minio.version}</version>
+            </dependency>
+            <!--  lombok  -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

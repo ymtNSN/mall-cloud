@@ -41,7 +41,7 @@ app.pid
 !/output/control.sh
 document/reference/
 mall-admin/src/
-mall-common/src/
+mall-comm/src/
 mall-config/src/
 mall-demo/src/
 mall-gateway/src/
