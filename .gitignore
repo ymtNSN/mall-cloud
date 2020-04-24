@@ -40,14 +40,3 @@ app.pid
 !/output/
 !/output/control.sh
 document/reference/
-#mall-admin/src/
-#mall-comm/src/
-#mall-config/src/
-#mall-demo/src/
-#mall-gateway/src/
-#mall-mbg/src/
-#mall-monitor/src/
-#mall-portal/src/
-#mall-registry/src/
-#mall-search/src/
-#mall-security/src/
