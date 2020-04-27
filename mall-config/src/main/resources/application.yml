@@ -11,8 +11,9 @@ spring:
         native: #本地仓库存储
           search-locations: classpath:/config/{application}
         git: #Git仓库存储
-          uri: https://gitee.com/macrozheng/mall-config.git
-          username: macro
-          password: 123456
+          uri: https://gitee.com/ymtNSN/mall-config.git
+          #如果Git仓库为公开仓库，可以不填写用户名和密码，如果是私有仓库需要填写，
+          username:
+          password:
           clone-on-start: true
           search-paths: '{application}'
